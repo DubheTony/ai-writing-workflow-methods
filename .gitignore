@@ -1,4 +1,4 @@
-# 仅将方法论文档和通用工具纳入仓库；不允许把训练集原料复制到这里。
+# Keep the repository focused on public documentation and generic tools.
 /*
 !/.gitignore
 !/README.md
@@ -8,21 +8,15 @@
 !/src/
 !/src/*.py
 
-# 原始语料、私人记录和本地运行数据绝不进入项目
-/微信/
-/还没提炼过/
-/提炼要求/
-/_历史版本/
-/_源材料/
-/_临时/
-/工作日志/
-/数据/
-/模型/
-/索引/
+# Exclude common local data and generated files.
+/data/
+/datasets/
+/private/
+/outputs/
 /.venv/
 /__pycache__/
 
-# 文档里如确需演示，只用新写的虚构例句，不复制真实文件
+# Do not add source documents or media files to the methods repository.
 *.docx
 *.pptx
 *.xlsx
