@@ -50,13 +50,13 @@ Skill 是按职责分工的模块，不是需要逐个打开的功能清单。�
 - `writing-beats`：本机 Skill 文件与 [mattpocock/skills](https://github.com/mattpocock/skills/blob/abeeaf95660ba9e8b7c753eb38f441ca707a8823/skills/in-progress/writing-beats/SKILL.md) 在核验时逐字相同；仓库许可为 MIT。
 - `Word-Skill`：本机文件与 [ni1o1/claude-skill-docx-batch](https://github.com/ni1o1/claude-skill-docx-batch/blob/4a0345d27b0cbc466e0c967f3bbe7f60ab0354c2/SKILL.md) 逐字相同；许可为 MIT。
 - `lieflat-less-ai-tone`：本机 Skill 文件与 [Xiangson/lieflat-less-ai-tone](https://github.com/Xiangson/lieflat-less-ai-tone/blob/1bd1100061b7e6a7797c1bcab3e8148ffd0271df/SKILL.md) 逐字相同。本机 `LICENSE` 文本是 MIT；GitHub 的机器识别未给出标准 SPDX，以上只记录文件核验结果。
-- `humanizer-zh`：本机 README 指向 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh/tree/f4518a8eab97b8bfebc66a89d34320a89bef6930)，并明确说明核心翻译参考 [blader/humanizer](https://github.com/blader/humanizer/tree/a32f24407364c74c812b43c15926d638bee1e072)，工具部分参考 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop/tree/8da1f030185bdfe8471220585162991eaeb970e9)。本机 `SKILL.md` 与 op7418 当前版本不同；README 中的来源说明是现有证据。
+- `humanizer-zh`：本机 README 指向 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh/tree/f4518a8eab97b8bfebc66a89d34320a89bef6930)，并明确说明核心翻译参考 [blader/humanizer](https://github.com/blader/humanizer/tree/a32f24407364c74c812b43c15926d638bee1e072)，工具部分参考 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop/tree/8da1f030185bdfe8471220585162991eaeb970e9)。上述仓库的许可信息为 MIT；本机 Skill 文件与 op7418 当前版本不同，README 中的来源说明是现有依据。
 
 ### 有上游候选，但本机文件不同
 
 - `writing-fragments`：候选为 [yzsp-studio/writing-fragments](https://github.com/yzsp-studio/writing-fragments/tree/53675de09795ea8150d50befadb4f5c249556f28)（仓库标记 MIT）；本机文件与该快照不同，不能据此认定具体复制版本。
 - `writing-shape`：候选为 [yuncang123/writing-shape](https://github.com/yuncang123/writing-shape/tree/41c69804a27a85fe2382dcc459d4edae2609aa71)（仓库标记 MIT）；本机文件与该快照不同。
-- `doc-coauthoring`、`docx`、`pptx`、`brand-guidelines`：见 [Anthropic Skills](https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills)。这个仓库的 GitHub 许可字段未识别；本机 `docx`、`pptx` Skill 头部写有 proprietary 条款，本项目只链接来源，不复制其内容。
+- `doc-coauthoring`、`docx`、`pptx`、`brand-guidelines`：见 [Anthropic Skills](https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills)。这个仓库的 GitHub 许可字段未识别；本机四份 SKILL.md 均与该快照不同，本机 `docx`、`pptx` Skill 头部写有 proprietary 条款，本项目只链接来源，不复制其内容。
 - `internal-comms`：同名项目见 [MextAI/internal-comms](https://github.com/MextAI/internal-comms/tree/eb5c5c5e5d0e7d32aaaa2300c5b79286cea1ecc0)（仓库标记 Apache-2.0），Anthropic Skills 快照中也有同名文件。本机文件与两者都不完全相同，精确来源未能唯一确定；本机 `LICENSE.txt` 是 Apache-2.0。
 - `to-prd`、`to-issues`：在 [mattpocock/skills](https://github.com/mattpocock/skills/tree/62f43a18177be6ec82da242e59ffbc490a4c22ea/skills/engineering) 的历史快照中能找到同名文件（仓库标记 MIT）；本机版本不同。该仓库当前版本已调整这组 Skill 的名称和流程。
 - `ppt-master`：本机 Skill 自己声明的上游为 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master/tree/d8f704bc8c1552d53a8769b55d1eecd22c782042)（MIT）；本机文件与当前上游不同。
